@@ -1,0 +1,86 @@
+Sentiment Distributions for r/The_Donald:
+-------------------------------------------------------
+2016 r/The_Donald Sentiment Distribution 
+-- Negative:655 
+-- Neutral: 912 
+-- Positive: 378
+Negative Proportion: 0.33676092544987146
+Neutral Proportion: 0.46889460154241647
+Positive Proportion: 0.19434447300771207
+
+2017 r/The_Donald Sentiment Distribution 
+-- Negative:1513 
+-- Neutral: 2167 
+-- Positive: 661
+Negative Proportion: 0.3485372034093527
+Neutral Proportion: 0.49919373416263535
+Positive Proportion: 0.15226906242801197
+
+2018 r/The_Donald Sentiment Distribution 
+-- Negative:1238 
+-- Neutral: 1577 
+-- Positive: 532
+Negative Proportion: 0.36988347774126085
+Neutral Proportion: 0.4711682103376158
+Positive Proportion: 0.15894831192112338
+
+2019 r/The_Donald Sentiment Distribution 
+-- Negative:1494 
+-- Neutral: 1885 
+-- Positive: 646
+Negative Proportion: 0.37118012422360247
+Neutral Proportion: 0.4683229813664596
+Positive Proportion: 0.1604968944099379
+
+
+
+Sentiment Distributions for r/politics:
+-------------------------------------------------------
+2016 r/politics Sentiment Distribution 
+-- Negative:2082 
+-- Neutral: 1770 
+-- Positive: 1958
+Negative Proportion: 0.35834767641996557
+Neutral Proportion: 0.3046471600688468
+Positive Proportion: 0.3370051635111876
+
+2017 r/politics Sentiment Distribution 
+-- Negative:2132 
+-- Neutral: 2102 
+-- Positive: 2593
+Negative Proportion: 0.3122894389922367
+Neutral Proportion: 0.30789512230848104
+Positive Proportion: 0.37981543869928225
+
+2018 r/politics Sentiment Distribution 
+-- Negative:2599 
+-- Neutral: 2516 
+-- Positive: 3083
+Negative Proportion: 0.3170285435472066
+Neutral Proportion: 0.30690412295681874
+Positive Proportion: 0.37606733349597465
+
+2019 r/politics Sentiment Distribution 
+-- Negative:3673 
+-- Neutral: 3293 
+-- Positive: 4025
+Negative Proportion: 0.33418251296515333
+Neutral Proportion: 0.29960877081248294
+Positive Proportion: 0.36620871622236373
+
+
+
+Two-Proportion Z-Test for significances of Negativity and Positivity across all four years:
+-------------------------------------------------------
+Negative Sentiment Tests 
+Total Proportion of Negative r/The_Donald comments: 0.35876409430370476 (4900 / 13658)
+Total Proportion of Negative r/politics comments: 0.3294790422924653 (10486 / 31826)
+The p-value = 9.584456923006846e-10, and is less than .05, so we may conclude that the sentiment of r/The_Donald is more negative than that of r/politics.
+The p-value = 0.9999999990415543, and is greater than .05, so we may conclude that the sentiment of r/politics is not more negative than that of r/The_Donald.
+
+Positive Sentiment Tests 
+Total Proportion of Positive r/The_Donald comments: 0.1623224483819007 (2217 / 13658)
+Total Proportion of Positive r/politics comments: 0.366335700370766 (11659 / 31826)
+The p-value = 1.0, and is greater than .05, so we may conclude that the sentiment of r/The_Donald is not more positive than that of r/politics.
+The p-value = 0.0, and is less than .05, so we may conclude that the sentiment of r/politics is more positive than that of r/The_Donald.
+
